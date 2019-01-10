@@ -21,11 +21,10 @@ In Space.js, users will be able to
 ## Implementation Timeline
 Day 1
 ---------------
-[ ] Setup development environment on Windows Machine (my vintage Macbook dev machine's graphics card does not support WebGL)
-  - <br>Linux, Node, Git, VSCode, Express, Terminal, NPM, aliases
+[ ] Setup development environment on Windows Machine (my vintage Macbook dev machine's graphics card does not support WebGL): Linux, Node, Git, VSCode, Express, Terminal, NPM, aliases
 <br>[ ] Setup file tree skeleton and get webpack to run
-[ ] Render start page
-[ ] Generate starfield using three.js or Canvas
+<br>[ ] Render start page
+<br>[ ] Generate starfield using three.js or Canvas
 
 Day 2
 ---------------
@@ -34,4 +33,4 @@ Day 2
 Day 3
 ------
 [ ] Implement flying/traversal
-[ ] Add music 
+<br>[ ] Add music 
