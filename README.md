@@ -21,14 +21,14 @@ In Space.js, users will be able to
 ## Implementation Timeline
 Day 1
 ---------------
-[ ] Setup development environment on Windows Machine (my vintage Macbook dev machine's graphics card does not support WebGL): Linux, Node, Git, VSCode, Express, Terminal, NPM, aliases
-<br>[ ] Setup file tree skeleton and get webpack to run
-<br>[ ] Render start page
-<br>[ ] Generate starfield using three.js or Canvas
+[X ] Setup development environment on Windows Machine (my vintage Macbook dev machine's graphics card does not support WebGL): Linux, Node, Git, VSCode, Terminal, NPM, aliases
 
 Day 2
 ---------------
-[ ] Get planets and stars to show, be able to render "show" pages of each planet
+[ ] Setup file tree skeleton and get webpack to run
+<br>[ ] Render start page
+<br>[ ] Generate starfield using three.js or Canvas
+<br>[ ] Get planets and stars to show, be able to render "show" pages of each planet
 
 Day 3
 ------
