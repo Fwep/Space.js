@@ -6,7 +6,7 @@ var renderer = new THREE.WebGLRenderer({
 });
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
-renderer.shadowMapEnabled = true // Turn on shadows in the renderer
+renderer.shadowMap.enabled = true // Turn on shadows in the renderer
 
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.01, 100);
