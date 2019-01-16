@@ -23,7 +23,7 @@ camera.position.z = 1;
 /* The Starfield: it's simply a three.js sphere */
 var geometry = new THREE.SphereGeometry(40, 32, 32);
 var material = new THREE.MeshBasicMaterial();
-material.map = new THREE.TextureLoader().load("../starfield.png");
+material.map = new THREE.TextureLoader().load("./starfield.png");
 material.side = THREE.BackSide;
 var mesh = new THREE.Mesh(geometry, material);
 background.add(mesh);
@@ -45,7 +45,7 @@ var material = new THREE.MeshPhongMaterial({
 });
 var cloudMesh = new THREE.Mesh(geometry, material);
 
-currentMesh = venusMesh;
+currentMesh = earthMesh;
 currentMesh.add(cloudMesh);
 background.add(currentMesh);
 const switchValue = (type) => {

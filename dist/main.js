@@ -47861,7 +47861,7 @@ camera.position.z = 1;
 
 var geometry = new three__WEBPACK_IMPORTED_MODULE_0__["SphereGeometry"](40, 32, 32);
 var material = new three__WEBPACK_IMPORTED_MODULE_0__["MeshBasicMaterial"]();
-material.map = new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("../starfield.png");
+material.map = new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./starfield.png");
 material.side = three__WEBPACK_IMPORTED_MODULE_0__["BackSide"];
 var mesh = new three__WEBPACK_IMPORTED_MODULE_0__["Mesh"](geometry, material);
 background.add(mesh);
@@ -47882,7 +47882,7 @@ var material = new three__WEBPACK_IMPORTED_MODULE_0__["MeshPhongMaterial"]({
   depthWrite: false
 });
 var cloudMesh = new three__WEBPACK_IMPORTED_MODULE_0__["Mesh"](geometry, material);
-currentMesh = _planets_venus_venus_js__WEBPACK_IMPORTED_MODULE_2__["default"];
+currentMesh = _planets_earth_earth_js__WEBPACK_IMPORTED_MODULE_3__["default"];
 currentMesh.add(cloudMesh);
 background.add(currentMesh);
 
@@ -48010,7 +48010,7 @@ __webpack_require__.r(__webpack_exports__);
 var geometry = new three__WEBPACK_IMPORTED_MODULE_0__["SphereGeometry"](0.5, 32, 32);
 var material = new three__WEBPACK_IMPORTED_MODULE_0__["MeshPhongMaterial"]({
   map: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/jupiter/jupitermap.jpg"),
-  bumpMap: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("/src/planets/jupiter/jupitermap.jpg"),
+  bumpMap: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/jupiter/jupitermap.jpg"),
   bumpScale: 0.005
 });
 var jupiterMesh = new three__WEBPACK_IMPORTED_MODULE_0__["Mesh"](geometry, material);
@@ -48031,8 +48031,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var geometry = new three__WEBPACK_IMPORTED_MODULE_0__["SphereGeometry"](0.5, 32, 32);
 var material = new three__WEBPACK_IMPORTED_MODULE_0__["MeshPhongMaterial"]({
-  map: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("/src/planets/mars/marsmap1k.jpg"),
-  bumpMap: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("/src/planets/mars/marsbump1k.jpg"),
+  map: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/mars/marsmap1k.jpg"),
+  bumpMap: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/mars/marsbump1k.jpg"),
   bumpScale: 0.05
 });
 var marsMesh = new three__WEBPACK_IMPORTED_MODULE_0__["Mesh"](geometry, material);
@@ -48053,8 +48053,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var geometry = new three__WEBPACK_IMPORTED_MODULE_0__["SphereGeometry"](0.5, 32, 32);
 var material = new three__WEBPACK_IMPORTED_MODULE_0__["MeshPhongMaterial"]({
-  map: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("/src/planets/mercury/mercurymap.jpg"),
-  bumpMap: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("/src/planets/mercury/mercurybump.jpg"),
+  map: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/mercury/mercurymap.jpg"),
+  bumpMap: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/mercury/mercurybump.jpg"),
   bumpScale: 0.05
 });
 var mercuryMesh = new three__WEBPACK_IMPORTED_MODULE_0__["Mesh"](geometry, material);
@@ -48075,8 +48075,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var geometry = new three__WEBPACK_IMPORTED_MODULE_0__["SphereGeometry"](0.5, 32, 32);
 var material = new three__WEBPACK_IMPORTED_MODULE_0__["MeshPhongMaterial"]({
-  map: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("/src/planets/neptune/neptunemap.jpg"),
-  bumpMap: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("/src/planets/neptune/neptunemap.jpg"),
+  map: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/neptune/neptunemap.jpg"),
+  bumpMap: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/neptune/neptunemap.jpg"),
   bumpScale: 0.005
 });
 var neptuneMesh = new three__WEBPACK_IMPORTED_MODULE_0__["Mesh"](geometry, material);
@@ -48097,8 +48097,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var geometry = new three__WEBPACK_IMPORTED_MODULE_0__["SphereGeometry"](0.5, 32, 32);
 var material = new three__WEBPACK_IMPORTED_MODULE_0__["MeshPhongMaterial"]({
-  map: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("/src/planets/saturn/saturnmap.jpg"),
-  bumpMap: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("/src/planets/saturn/saturnmap.jpg"),
+  map: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/saturn/saturnmap.jpg"),
+  bumpMap: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/saturn/saturnmap.jpg"),
   bumpScale: 0.05
 });
 var saturnMesh = new three__WEBPACK_IMPORTED_MODULE_0__["Mesh"](geometry, material);
@@ -48119,8 +48119,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var geometry = new three__WEBPACK_IMPORTED_MODULE_0__["SphereGeometry"](0.5, 32, 32);
 var material = new three__WEBPACK_IMPORTED_MODULE_0__["MeshPhongMaterial"]({
-  map: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("/src/planets/uranus/uranusmap.jpg"),
-  bumpMap: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("/src/planets/uranus/uranusmap.jpg"),
+  map: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/uranus/uranusmap.jpg"),
+  bumpMap: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/uranus/uranusmap.jpg"),
   bumpScale: 0.005
 });
 var uranusMesh = new three__WEBPACK_IMPORTED_MODULE_0__["Mesh"](geometry, material);
