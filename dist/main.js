@@ -48141,10 +48141,10 @@ __webpack_require__.r(__webpack_exports__);
 
 var geometry = new three__WEBPACK_IMPORTED_MODULE_0__["SphereGeometry"](0.5, 32, 32);
 var material = new three__WEBPACK_IMPORTED_MODULE_0__["MeshPhongMaterial"]({
+  map: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/venus/venusmap.jpg"),
   bumpMap: new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/venus/venusbump.jpg"),
   bumpScale: 0.05
 });
-material.map = new three__WEBPACK_IMPORTED_MODULE_0__["TextureLoader"]().load("./src/planets/venus/venusmap.jpg");
 var venusMesh = new three__WEBPACK_IMPORTED_MODULE_0__["Mesh"](geometry, material);
 /* harmony default export */ __webpack_exports__["default"] = (venusMesh);
 
