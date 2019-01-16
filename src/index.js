@@ -45,7 +45,7 @@ var material = new THREE.MeshPhongMaterial({
 });
 var cloudMesh = new THREE.Mesh(geometry, material);
 
-currentMesh = earthMesh;
+currentMesh = venusMesh;
 currentMesh.add(cloudMesh);
 background.add(currentMesh);
 const switchValue = (type) => {
