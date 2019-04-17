@@ -8,7 +8,7 @@
 ## Architecture and Technologies
 - Vanilla JavaScript for application logic
 - HTML5's Web Audio API for sound generation, processing, and control
-- Three.js for rendering of planet shapes and celestial objects
+- [Three.js](https://threejs.org/) for rendering of planet shapes and celestial objects
 - Webpack to compile and bundle assets
 
 ## Installation
